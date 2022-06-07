@@ -1,4 +1,3 @@
-
 import './App.css';
 import {
   BrowserRouter,
@@ -6,20 +5,19 @@ import {
   Route,
 } from "react-router-dom";
 
-import Home from "./Home"
-import Inicio from "./Inicio"
-
+import Home, { Teste } from './Home'
+import Inicio from './Inicio'
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/" element={<Inicio/>} />
-  
-    </Routes>
-  </BrowserRouter>,
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="inicio" element={<Inicio />} />
+          <Route path="teste" element={<Teste />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
