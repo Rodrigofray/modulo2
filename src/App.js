@@ -11,15 +11,15 @@ import Catalog from './pages/Catalag/Catalag';
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="inicio" element={<Inicio />} />
-          <Route path="teste" element={<Teste />} />
-          <Route path="catalogo" element={<Catalog />} />
-        </Routes>
-      </BrowserRouter>
+  <>
+<BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="inicio" element={<Inicio />} />
+    <Route path="teste" element={<Teste />} />
+    <Route path="catalogo" element={<Catalog />} />
+  </Routes>
+ </BrowserRouter>
     </>
   );
 }
