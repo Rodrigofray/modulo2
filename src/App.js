@@ -7,7 +7,7 @@ import {
 
 import Home, { Teste } from './Home'
 import Inicio from './Inicio'
-import Catalog from './pages/Catalag/Catalag';
+import Catalog from './pages/Catalog/Catalog';
 
 function App() {
   return (
